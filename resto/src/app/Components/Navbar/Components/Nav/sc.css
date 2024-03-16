@@ -1,0 +1,10 @@
+.menu{
+    display: flex;
+    list-style:none ;
+    color: #f1f1f1;
+    cursor: pointer;
+    gap: 127px;    ;
+}
+#ul{
+    text-decoration: auto;
+}

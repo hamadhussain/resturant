@@ -1,0 +1,77 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
+
+*{
+  margin: 0px;
+  padding: 0px;
+  /* background-color: black; */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.bd{
+  margin: 30px 113px;
+  text-align: center;
+}
+.btn {
+  color: #fbb7fb;
+  font-weight: 900;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  display: list-item;
+  margin-top: 40px;
+  padding: 23px;
+  border-radius: 57px;
+  background-color: blueviolet;
+  border: none;
+  width: 163px;
+  height: 67px;
+  font-size: 15px;
+  box-shadow: 5px 4px 5px 2px #baa4a4;
+}
+.Link{
+  list-style: none;
+}
+.Link:hover{
+  list-style: none;
+}
+.btn:hover{
+  color: black;
+  background-color: aquamarine;
+  list-style:none;
+  text-decoration: none;
+}
+.btn::selection{
+  color: red;
+  background-color: green;
+}
+body{
+  background-color: white;
+}
+

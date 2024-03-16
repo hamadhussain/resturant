@@ -1,0 +1,17 @@
+.resh{
+    text-align: center;
+    /* margin: auto; */
+    margin: 33px;
+}
+p{
+    text-align: center;
+    margin: 33px;
+
+}
+.map{
+    box-shadow: 5px 4px 5px 2px #baa4a4;
+
+}
+.info{
+    margin: 90px 436px;
+}

@@ -1,0 +1,72 @@
+.h1{
+    color:white;
+    text-shadow: 2px 1px 1px black;
+}
+
+nav{
+    display: flex;
+}
+.ul{
+    display: flex;
+    gap: 31px;
+}
+#ul{
+    color:white;
+    font-size: 23px;
+    text-shadow: 2px 1px 1px black;
+    text-decoration: aqua;
+    list-style: none;
+    gap: 23px;
+    display: flex;
+    cursor: pointer;
+}
+#ul:hover{
+    color: blue;
+}
+#ul::selection{
+    color: brown;
+}
+
+.btn {
+    color: #fbb7fb;
+    font-weight: 900;
+    margin-left: auto;
+    margin-right: auto;
+    display: list-item;
+    margin-top: 40px;
+    padding: 23px;
+    font-size: 15px;
+    border-radius: 57px;
+    background-color: blueviolet;
+    border: none;
+    width: 163px;
+    height: 67px;
+    cursor: pointer;
+  }
+nav{
+    justify-content: center;
+    gap: 189px;
+    margin-top: 36px;
+    text-shadow: 1px 2px 5px #897777;
+}
+.body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url( 
+        https://images.pexels.com/photos/1310777/pexels-photo-1310777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+   ) ;
+   animation: myfirst 6s 1009078;
+   height: 364px;
+   background-size: 100% 100%;
+   border-radius:23px;
+   animation-direction: linear;
+   border: 3px solid #e1d0d0;
+   margin: 8px 11px;
+   margin: 70px;
+   box-shadow: 5px 4px 5px 2px #baa4a4;
+   /* transition-; */
+}
+@keyframes myfirst{
+    30%{background-image: url(https://images.pexels.com/photos/261169/pexels-photo-261169.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);}
+    50%{ background-image: url(https://images.pexels.com/photos/2788792/pexels-photo-2788792.jpeg?auto=compress&cs=tinysrgb&w=600);}
+}

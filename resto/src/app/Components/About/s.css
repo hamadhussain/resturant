@@ -1,0 +1,24 @@
+.About{
+    color: rgb(99 80 80);
+    margin: 80px;
+    display: flex;
+    gap: 140px;
+    align-items: center;
+    /* border: 2px solid; */
+    box-shadow: 5px 4px 5px 2px #baa4a4;
+    border-radius: 23px;
+}
+.classy{
+    display: grid;
+    grid: 572px /1419px;
+    text-align: center;}
+.About img{
+    border: 17px double white;
+}
+#imgabout{
+    width: 631px;
+    height: 310px;
+}
+img{
+    border-radius: 288px;
+}
